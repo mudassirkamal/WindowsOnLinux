@@ -10,7 +10,7 @@ install_dependencies() {
 # Function to download Windows ISO
 download_windows_iso() {
     echo "Downloading Windows ISO..."
-    wget -O windows.iso "{{https://itechtics.com/?dl_id=173}}" # Replace with actual URL
+    wget -O windows.iso "{https://itechtics.com/?dl_id=173}" # Replace with actual URL
 }
 
 # Function to prompt user for Windows version and other options
